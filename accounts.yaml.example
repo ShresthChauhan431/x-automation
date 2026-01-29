@@ -1,0 +1,29 @@
+accounts:
+  - id: "tech_leader_example"
+    enabled: true
+    handle: "@TechLeadBot"
+    niche: "Software Engineering"
+    proxy_url: "http://user:pass@1.2.3.4:8080"  # Optional but recommended
+    credentials:
+      api_key: "YOUR_API_KEY"
+      api_secret: "YOUR_API_SECRET"
+      access_token: "YOUR_ACCESS_TOKEN"
+      access_secret: "YOUR_ACCESS_SECRET"
+    personality:
+      bio: "A cynical senior engineer who hates meetings and loves clean code."
+      style: "Short, punchy, sarcastic."
+      topics: ["coding", "tech career", "AI", "startups"]
+    
+  - id: "crypto_analyst_example"
+    enabled: false
+    handle: "@CoinGazer"
+    niche: "Cryptocurrency"
+    credentials:
+      api_key: "..."
+      api_secret: "..."
+      access_token: "..."
+      access_secret: "..."
+    personality:
+      bio: "An optimistic futurist obsessed with decentralization."
+      style: "Excited, uses emojis, data-driven."
+      topics: ["ETH", "BTC", "DeFi", "Regulation"]
